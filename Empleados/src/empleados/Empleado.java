@@ -6,9 +6,9 @@ public class Empleado {
 	private String nombreEmpleado;
 	private String fechaNacimiento;
 	private int sueldoBase;
-	
-	public Empleado (int id, String nombre, String fecha, int sueldo) {
-		
+
+	public Empleado(int id, String nombre, String fecha, int sueldo) {
+
 		this.idEmpleado = id;
 		this.nombreEmpleado = nombre;
 		this.fechaNacimiento = fecha;
@@ -52,5 +52,5 @@ public class Empleado {
 		return "Empleado [idEmpleado=" + idEmpleado + ", nombreEmpleado=" + nombreEmpleado + ", fechaNacimiento="
 				+ fechaNacimiento + ", sueldoBase=" + sueldoBase + "]";
 	}
-	
+
 }
